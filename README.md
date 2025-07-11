@@ -17,3 +17,35 @@ Many businesses still operate web applications on aging, on-premise servers — 
 As part of my cloud engineering learning path, I created this simulation to replicate a real-life workload migration. The aim is to modernize the stack, reduce infrastructure overhead, and implement a cloud-native solution using GCP services, all while following best practices in networking, IAM, and cost optimization.
 
 ---
+
+##  Objectives
+
+- Simulate a typical monolithic on-prem setup:
+  - Flask web app
+  - Local PostgreSQL database
+  - Static file handling
+  - Manual deployment process
+- Migrate application and data to Google Cloud
+- Replace legacy components with scalable GCP services:
+  - Cloud SQL for managed database
+  - Cloud Storage for static files
+  - Compute Engine or Cloud Run for app hosting
+  - VPC and IAM for security
+- Prepare for CI/CD and future automation
+
+---
+
+## 🛠 Technologies & Tools
+
+- Google Cloud Platform (GCP)
+  - Compute Engine
+  - Cloud SQL (PostgreSQL)
+  - Cloud Storage
+  - Cloud VPC, IAM, Firewall Rules
+- Python (Flask)
+- PostgreSQL
+- Bash / `gsutil` / `gcloud` CLI
+- GitHub Actions or Cloud Build (Optional for CI/CD)
+- Terraform (Optional for IaC)
+
+---
