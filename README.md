@@ -52,10 +52,9 @@ As part of my cloud engineering learning path, I created this simulation to repl
 
 ## On-Premises Architecture
 
-'''
+```
 On-Prem VM
 ├── Flask App (Python)
 ├── PostgreSQL (Local)
 └── Static Files in /var/www/assets
-
-'''
+```
